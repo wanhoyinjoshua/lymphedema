@@ -1,0 +1,28 @@
+:root{
+    font-size: 85%;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.endlogocontainer{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endlogo{
+    border-radius: 50%;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:8rem;
+    width:8rem;
+    margin:auto;
+}
+

@@ -1,0 +1,328 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+html{
+    
+}
+a{
+    text-decoration: none;
+}
+
+#navtop{
+    position: fixed;
+    width:100px;
+    height: 100px;
+    background-color: rgb(235, 235, 235);
+    top:85%;
+    left:92%;
+    border-radius: 50%;
+    z-index: 100;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    box-shadow: 
+                38px 18px 60px -7px rgb(158, 146, 146);
+
+}
+
+
+i {
+    border: solid rgb(66, 66, 66);
+    border-width: 0 9px 9px 0;
+    display: inline-block;
+    padding: 3px;
+    
+    
+  }
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    width: 50px;
+    height: 50px;
+    
+    
+  }
+
+
+header{
+    height:100px;
+    width:100vw;
+    position: relative;
+    
+    background-color: rgb(250, 245, 245);
+    box-shadow:  0px 0px 46px -25px rgba(176,124,95,1),
+                 0px 17px 22px -6px rgba(255,255,255,1);
+
+  
+    
+    
+    
+}
+
+
+.headerwrap{
+    display :grid;
+    grid-template-columns: 60% 20% ;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    left:3%;
+    
+    
+    
+}
+.headerwrap>p{
+    text-align: left;
+    
+}
+.secondhalf{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+#container{
+    display: grid;
+    grid-template-columns: 30% 80%;
+    height: calc(100vh - 100px);
+    max-width: 100vw;
+    position: sticky;
+    
+
+}
+#sidebarex {
+    max-width: 100%;
+    height: calc(100vh );
+    
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+#maincontentex{
+    max-width: 80%;
+    text-align: center;
+    position: sticky;
+    
+}
+.first{
+    background-color: rgb(231, 231, 231, 0.5);
+    text-align: center;
+
+}
+.first iframe{
+    text-align: center;
+}
+.third{
+background-color: rgb(214, 214, 214,0.5);
+
+}
+#sidebarex{
+    position: sticky;
+    top:10%;
+    
+}
+
+.intro{
+   
+}
+#introvid{
+   
+}
+.break{
+    height:100px;
+    
+}
+p{
+    padding: 30px;
+}
+#firstintro{
+    font-weight: bold;
+    text-align: center;
+}
+#firstword{
+    text-align: center;
+}
+#secondintro{
+    font-weight: bold;
+}
+
+#thirdintro{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 426px) {
+    :root{
+        font-size: 90%;
+    }
+   *{
+       padding: 0;
+       margin: 0;
+       font-size: 1rem;
+       
+   }
+   html{
+       max-width: 100vw;
+       max-height: 100vh;
+   }
+   body{
+       background-color: rgb(243, 243, 243);
+       max-width: 100vw;
+   }
+   
+   header{
+    padding: 0;
+  
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  margin: 0;
+  
+}
+.headerwrap{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top:0;
+    width:100%;
+    
+   
+    
+    
+    
+    
+    
+}
+.secondhalf{
+    text-align: left;
+    margin-top: 10px;
+    display: grid;
+    width: 100%;
+    text-align: center;
+
+}
+   #setting{
+       position: sticky;
+       left:80%;
+       
+     
+       
+       background-color: rgb(134, 128, 114);
+       
+      
+       
+       box-shadow: -35px -32px 60px -7px rgba(255,255,255,1),
+                    38px 18px 60px -7px rgba(201,201,201,1);
+     
+   }
+
+   #container{
+    display: grid;
+    grid-template-columns: 30% 80%;
+    height: calc(100vh - 50px );
+}
+
+
+
+
+
+    #container{
+        display: grid;
+        grid-template-rows: 150px auto;
+        grid-template-columns: 100%;
+        height: auto;
+        width: 100vw;
+        text-align: center;
+        
+        
+    
+    }
+    #sidebarex {
+        max-width: 100%;
+       
+        max-height: 150px;
+        
+        
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        grid-template-rows: 50% 50%;
+        
+       
+
+        
+        
+        
+        
+    
+    }
+
+    #sidebarcontainer{
+        max-width: 100vw;
+        height: auto;
+        
+    
+        z-index: 100;
+        text-align: center;
+        
+    }
+    img{
+        width:50px;
+        height: 50%;
+    }
+    iframe{
+        height: 200px;
+        width:300px;
+    }
+
+    #navtop{
+        left:75%;
+        width: 50px;
+        height: 50px;
+    }
+    .break{
+        display: none;
+    }
+    #maincontentex{
+        max-width: 100%;
+        height: 100%;
+        text-align: center;
+        position: sticky;
+        
+    }
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

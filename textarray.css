@@ -1,0 +1,11 @@
+.final{
+    background-color: rgb(255, 145, 102);
+    display:grid;
+
+}
+.master{
+    width:10%;
+    height:10px;
+    position: relative;
+
+}

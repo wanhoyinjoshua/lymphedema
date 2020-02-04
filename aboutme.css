@@ -1,0 +1,45 @@
+.photo{
+    display: grid;
+    margin:auto;
+    height: 70%;
+    width:auto;
+  
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows:20% 20% 20% 20% 20%;
+
+
+}
+.personcontainer{
+    width:80%;
+    height: 300px;
+    display: block;
+    margin:auto;
+}
+.description{
+width:95%;
+height:auto;
+border-radius: 5%;
+background-color: wheat;
+display: block;
+margin:auto;
+padding: 0px 15px;
+color: black;
+
+
+}
+.bigheadlogo{
+    grid-area: 1/1/3/3;
+    background-image: url("./pic/me.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.bighead{
+    grid-area: 2/2/6/5;
+    background-image: url("./pic/joshua.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 60%;
+}
